@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/s91153/Documents/FPGA/Arty-Z7/Arty-Z7-20-xadc/proj/XADCDemo1.wdb" id="1">
+         <top_modules>
+            <top_module name="XADCDemo_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="190600000001fs"></ZoomEndTime>
+      <Cursor1Time time="6815100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wave_markers>
+      <marker time="17215100000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/XADCDemo_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/sw" type="array">
+      <obj_property name="ElementShortName">sw[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/xa_n" type="array">
+      <obj_property name="ElementShortName">xa_n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">xa_n[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/xa_p" type="array">
+      <obj_property name="ElementShortName">xa_p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">xa_p[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/led" type="array">
+      <obj_property name="ElementShortName">led[1:0]</obj_property>
+      <obj_property name="ObjectShortName">led[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider22">
+      <obj_property name="label">XADC-Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/busy_out" type="logic">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/eoc_out" type="logic">
+      <obj_property name="ElementShortName">eoc_out</obj_property>
+      <obj_property name="ObjectShortName">eoc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/eos_out" type="logic">
+      <obj_property name="ElementShortName">eos_out</obj_property>
+      <obj_property name="ObjectShortName">eos_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/channel_out" type="array">
+      <obj_property name="ElementShortName">channel_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/den_in" type="logic">
+      <obj_property name="ElementShortName">den_in</obj_property>
+      <obj_property name="ObjectShortName">den_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/dwe_in" type="logic">
+      <obj_property name="ElementShortName">dwe_in</obj_property>
+      <obj_property name="ObjectShortName">dwe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/daddr_in" type="array">
+      <obj_property name="ElementShortName">daddr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/XLXI_7/do_out" type="array">
+      <obj_property name="ElementShortName">do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider32">
+      <obj_property name="label">Demo-Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/data0_reg" type="array">
+      <obj_property name="ElementShortName">data0_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data0_reg[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/data1_reg" type="array">
+      <obj_property name="ElementShortName">data1_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data1_reg[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADCDemo_tb/dut/pwmCnt" type="array">
+      <obj_property name="ElementShortName">pwmCnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pwmCnt[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
